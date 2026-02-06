@@ -1,0 +1,80 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: #ffffff;
+ margin: 20px;
+ padding: 20px;
+}
+header {
+ font-size: 22px; 
+ color: #4b2805;
+ border: 3px solid #ffa000;
+ background-color: #c4b18d;
+ text-align: center;
+ padding: 10px;
+
+}
+h4 {
+ color: #ffa000;
+}
+
+table, th, td {
+ color: #051f38; 
+ border: 3px solid #ffa000;
+ border-collapse: collapse;
+ padding: 10px; }
+.container {
+ display: grid;
+ grid-template-columns: auto;
+ grid-template-rows: auto;
+ gap: 3px;
+}
+.a { 
+ background-color: #FAB40C; 
+ border-radius: 10px 10px 10px 10px;
+ padding: 10px;
+}
+.b { 
+ background-color: #CF9F2D;
+ border-radius: 10px 10px 10px 10px;
+ padding: 10px;
+}
+.c {
+ background-color: #A5863F;
+ border-radius: 10px 10px 10px 10px;
+ padding: 10px;
+}
+h3 {
+ color: #33312D;
+ text-align: center;
+}
+.sig { 
+ color: #7A6A43;
+ font-weight: bold;
+}
+.sign {
+ text-align:justify;
+}
+strong{
+ color: #7A6A43;
+}
+img {
+ float: left;
+ border-radius: 50px 50px 50px 50px;
+ margin-left: 5px;
+ margin-right: 15px;
+ width: 30%;
+ height: 50%;
+}
+footer{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ background-color: antiquewhite;
+ text-align: justify;
+ color: #33312D;
+ border-top: 2px solid #33312D;
+ padding-top: 10px;
+}
+
+
+@media screen and (max-width: 500px)
+{body {background-color: #D5EAFA;}}
